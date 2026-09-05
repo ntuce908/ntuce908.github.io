@@ -1,12 +1,12 @@
 # ---------------------------------------------------------------------------
 # 研究室網站後台設定 (Sveltia CMS，相容 Decap CMS 格式)
 #
-# 部署前務必修改下面的 repo 為實際的 GitHub 倉庫，例如 ntuce908/lab-website
+# 後台網址：https://ntuce908.github.io/admin/
 # ---------------------------------------------------------------------------
 
 backend:
   name: github
-  repo: OWNER/REPO          # ← 改成你的 GitHub 帳號/倉庫名稱
+  repo: ntuce908/ntuce908.github.io
   branch: main
   base_url: https://sveltia-cms-auth.dev   # Sveltia 官方免費 OAuth 中繼
 

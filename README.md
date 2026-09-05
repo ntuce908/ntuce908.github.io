@@ -29,7 +29,7 @@ ntuce908-website/
 │  └─ img/               logo、主視覺、成員照片
 └─ admin/                後台（Sveltia CMS）
    ├─ index.html
-   └─ config.yml         ← 部署前要改 repo 名稱
+   └─ config.yml
 ```
 
 ---
@@ -150,7 +150,6 @@ Build command 留空、Output directory 填 `/` → Deploy。
 - [ ] `content/members.json` 的在學學生仍是 2019–2020 年舊資料，需更新為現任成員
 - [ ] `content/members.json` 的 `topic_zh` 尚未填寫（目前中文版會自動顯示英文題目）
 - [ ] `content/site.json` 的聯絡電話與地址請老師確認
-- [ ] `admin/config.yml` 的 `repo` 待填
 - [ ] 決定正式網域後，更新對外連結與舊站的轉址說明
 
 ---
