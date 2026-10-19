@@ -130,10 +130,16 @@ collections:
               - { name: role_en, label: 身分（英）, widget: string }
               - { name: topic_zh, label: 研究題目（中）, widget: text, required: false }
               - { name: topic_en, label: 研究題目（英）, widget: text, required: false }
-              - { name: education, label: 學歷, widget: list, required: false, field: { name: item, label: 學歷, widget: string } }
+              - { name: education_zh, label: 學歷（中）, widget: list, required: false, field: { name: item, label: 學歷, widget: string } }
+              - { name: education_en, label: 學歷（英）, widget: list, required: false, field: { name: item, label: Education, widget: string } }
+              - { name: education, label: 學歷（舊站資料，僅英文）, widget: list, required: false, field: { name: item, label: 學歷, widget: string } }
               - { name: hometown_zh, label: 家鄉（中）, widget: string, required: false }
               - { name: hometown_en, label: 家鄉（英）, widget: string, required: false }
-              - { name: grad_year, label: 畢業年（用於排序）, widget: number, value_type: int, required: false }
+              - { name: interests_zh, label: 興趣（中）, widget: string, required: false }
+              - { name: interests_en, label: 興趣（英）, widget: string, required: false }
+              - { name: motto, label: 座右銘, widget: string, required: false }
+              - { name: entry_year, label: 入學年（在學生排序用）, widget: number, value_type: int, required: false }
+              - { name: grad_year, label: 畢業年（校友排序用）, widget: number, value_type: int, required: false }
               - { name: photo, label: 照片, widget: image, required: false }
               - { name: email, label: 電子郵件, widget: string, required: false }
 

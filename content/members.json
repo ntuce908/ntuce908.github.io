@@ -35,7 +35,7 @@
       "email": ""
     },
     {
-      "group": "student",
+      "group": "alumni",
       "name_zh": "徐偉銓",
       "name_en": "Wei-Chuan Hsu",
       "role_en": "Master student",
@@ -52,7 +52,7 @@
       "email": ""
     },
     {
-      "group": "student",
+      "group": "alumni",
       "name_zh": "李冠穎",
       "name_en": "Kuan-Ying Lee",
       "role_en": "Master student",
@@ -69,7 +69,7 @@
       "email": ""
     },
     {
-      "group": "student",
+      "group": "alumni",
       "name_zh": "蘇語乾",
       "name_en": "Yu-Qian Su",
       "role_en": "Master student",
@@ -83,41 +83,6 @@
       "hometown_zh": "中國福州",
       "grad_year": 2019,
       "photo": "assets/img/people/yu-qian-su.png",
-      "email": ""
-    },
-    {
-      "group": "student",
-      "name_zh": "黃中澤",
-      "name_en": "Zhong-Ze Huang",
-      "role_en": "Master student",
-      "role_zh": "碩士生",
-      "topic_en": "Development and Application of Tidal Creek Evolution Model",
-      "topic_zh": "",
-      "education": [
-        "B.S., Marine Environment and Engineering, National Sun Yat-sen University, 2019"
-      ],
-      "hometown_en": "Taipei, Taiwan",
-      "hometown_zh": "臺北",
-      "grad_year": 2019,
-      "photo": "assets/img/people/zhong-ze-huang.jpg",
-      "email": ""
-    },
-    {
-      "group": "alumni",
-      "name_zh": "許耀文",
-      "name_en": "Yao-Wen Hsu",
-      "role_en": "Master student",
-      "role_zh": "碩士生",
-      "topic_en": "Water Movement between Surface Water and Unconfined Aquifer and Soil-Water Conservation of a Mountain Wetland",
-      "topic_zh": "",
-      "education": [
-        "M.S., Civil Engineering, National Taiwan University, 2020",
-        "B.S., Civil Engineering, National Taiwan University, 2018"
-      ],
-      "hometown_en": "Taichung, Taiwan",
-      "hometown_zh": "臺中",
-      "grad_year": 2020,
-      "photo": "assets/img/people/yao-wen-hsu.jpg",
       "email": ""
     },
     {
@@ -276,6 +241,202 @@
       "hometown_zh": "臺北",
       "grad_year": 2015,
       "photo": "assets/img/people/yi-an-kao.jpg",
+      "email": ""
+    },
+    {
+      "group": "student",
+      "name_zh": "許耀文",
+      "name_en": "Yao-Wen Hsu",
+      "role_zh": "博士生",
+      "role_en": "Ph.D. student",
+      "entry_year": 2022,
+      "topic_zh": "系統生態學",
+      "topic_en": "Systems ecology",
+      "education_zh": [
+        "國立臺灣大學 土木工程學系 碩士（2020）",
+        "國立臺灣大學 土木工程學系 學士（2018）"
+      ],
+      "education_en": [
+        "M.S., Civil Engineering, National Taiwan University, 2020",
+        "B.S., Civil Engineering, National Taiwan University, 2018"
+      ],
+      "hometown_zh": "台中",
+      "hometown_en": "Taichung, Taiwan",
+      "interests_zh": "生態調查",
+      "interests_en": "Ecological surveys",
+      "motto": "築夢踏實",
+      "grad_year": 0,
+      "photo": "assets/img/people/yao-wen-hsu.jpg",
+      "email": ""
+    },
+    {
+      "group": "student",
+      "name_zh": "黃中澤",
+      "name_en": "Zhong-Ze Huang",
+      "role_zh": "博士生",
+      "role_en": "Ph.D. student",
+      "entry_year": 2025,
+      "topic_zh": "紅樹林、自然解方（NbS）、濕地碳匯",
+      "topic_en": "Mangroves, nature-based solutions (NbS), wetland carbon sinks",
+      "education_zh": [
+        "國立臺灣大學 土木工程學系 碩士",
+        "國立中山大學 海洋環境及工程學系 學士（2019）"
+      ],
+      "education_en": [
+        "M.S., Civil Engineering, National Taiwan University",
+        "B.S., Marine Environment and Engineering, National Sun Yat-sen University, 2019"
+      ],
+      "hometown_zh": "台北",
+      "hometown_en": "Taipei, Taiwan",
+      "interests_zh": "排球、麻將",
+      "interests_en": "Volleyball, mahjong",
+      "motto": "從哪裡跌倒，就在哪裡躺下",
+      "grad_year": 0,
+      "photo": "assets/img/people/zhong-ze-huang.jpg",
+      "email": ""
+    },
+    {
+      "group": "student",
+      "name_zh": "薛媞安",
+      "name_en": "TiAn Hsueh",
+      "role_zh": "碩士生",
+      "role_en": "Master student",
+      "entry_year": 2025,
+      "topic_zh": "紅樹林",
+      "topic_en": "Mangroves",
+      "education_zh": [
+        "國立中興大學 水土保持學系 學士"
+      ],
+      "education_en": [
+        "B.S., Soil and Water Conservation, National Chung Hsing University"
+      ],
+      "hometown_zh": "台中",
+      "hometown_en": "Taichung, Taiwan",
+      "interests_zh": "畫畫",
+      "interests_en": "Drawing",
+      "motto": "Dare to dream. Dare to explore.",
+      "grad_year": 0,
+      "photo": "",
+      "email": ""
+    },
+    {
+      "group": "student",
+      "name_zh": "蔡愷聆",
+      "name_en": "Kai-Ling Tsai",
+      "role_zh": "碩士生",
+      "role_en": "Master student",
+      "entry_year": 2025,
+      "topic_zh": "能值、人工濕地、水力效率",
+      "topic_en": "Emergy, constructed wetlands, hydraulic efficiency",
+      "education_zh": [
+        "國立中興大學 水土保持學系 學士"
+      ],
+      "education_en": [
+        "B.S., Soil and Water Conservation, National Chung Hsing University"
+      ],
+      "hometown_zh": "高雄",
+      "hometown_en": "Kaohsiung, Taiwan",
+      "interests_zh": "畫畫、唱歌、看書",
+      "interests_en": "Drawing, singing, reading",
+      "motto": "Live well, love lots, and laugh often.",
+      "grad_year": 0,
+      "photo": "assets/img/people/kai-ling-tsai.jpg",
+      "email": ""
+    },
+    {
+      "group": "student",
+      "name_zh": "張晉圖",
+      "name_en": "Jim Chang",
+      "role_zh": "碩士生",
+      "role_en": "Master student",
+      "entry_year": 2025,
+      "topic_zh": "環境流體數值模擬",
+      "topic_en": "Numerical simulation of environmental flows",
+      "education_zh": [
+        "國立成功大學 水利及海洋工程學系 學士"
+      ],
+      "education_en": [
+        "B.S., Hydraulic and Ocean Engineering, National Cheng Kung University"
+      ],
+      "hometown_zh": "南投",
+      "hometown_en": "Nantou, Taiwan",
+      "interests_zh": "音樂、擼狗",
+      "interests_en": "Music, dogs",
+      "motto": "未經檢驗的生命不值得活",
+      "grad_year": 0,
+      "photo": "assets/img/people/jim-chang.jpg",
+      "email": ""
+    },
+    {
+      "group": "student",
+      "name_zh": "張凱傅",
+      "name_en": "Kai-Fu Chang",
+      "role_zh": "碩士生",
+      "role_en": "Master student",
+      "entry_year": 2025,
+      "topic_zh": "魚道水理、水工試驗、計算流體力學、機器學習、水文分析",
+      "topic_en": "Fishway hydraulics, hydraulic experiments, CFD, machine learning, hydrological analysis",
+      "education_zh": [
+        "國立成功大學 水利及海洋工程學系 學士"
+      ],
+      "education_en": [
+        "B.S., Hydraulic and Ocean Engineering, National Cheng Kung University"
+      ],
+      "hometown_zh": "台中",
+      "hometown_en": "Taichung, Taiwan",
+      "interests_zh": "釣魚、養倉鼠",
+      "interests_en": "Fishing, hamsters",
+      "motto": "想成功，先發瘋，不顧一切向前衝！",
+      "grad_year": 0,
+      "photo": "assets/img/people/kai-fu-chang.jpg",
+      "email": ""
+    },
+    {
+      "group": "student",
+      "name_zh": "林岱諼",
+      "name_en": "Tai-Hsuan Lin",
+      "role_zh": "碩士生",
+      "role_en": "Master student",
+      "entry_year": 2026,
+      "topic_zh": "濕地、生態系統模式",
+      "topic_en": "Wetlands, ecosystem modelling",
+      "education_zh": [
+        "國立中興大學 水土保持學系 學士"
+      ],
+      "education_en": [
+        "B.S., Soil and Water Conservation, National Chung Hsing University"
+      ],
+      "hometown_zh": "台中",
+      "hometown_en": "Taichung, Taiwan",
+      "interests_zh": "吃",
+      "interests_en": "Food",
+      "motto": "",
+      "grad_year": 0,
+      "photo": "assets/img/people/tai-hsuan-lin.jpg",
+      "email": ""
+    },
+    {
+      "group": "student",
+      "name_zh": "馬保嘉",
+      "name_en": "Bao-Jia Ma",
+      "role_zh": "碩士生",
+      "role_en": "Master student",
+      "entry_year": 2026,
+      "topic_zh": "魚道",
+      "topic_en": "Fishways",
+      "education_zh": [
+        "國立臺灣大學 土木工程學系 學士"
+      ],
+      "education_en": [
+        "B.S., Civil Engineering, National Taiwan University"
+      ],
+      "hometown_zh": "台北",
+      "hometown_en": "Taipei, Taiwan",
+      "interests_zh": "音樂、電子遊戲",
+      "interests_en": "Music, video games",
+      "motto": "答應的事情就要盡可能做到最好",
+      "grad_year": 0,
+      "photo": "assets/img/people/bao-jia-ma.jpg",
       "email": ""
     }
   ]

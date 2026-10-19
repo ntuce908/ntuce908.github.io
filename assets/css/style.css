@@ -177,6 +177,12 @@ section.alt { background: var(--bg-alt); }
 }
 .person .topic-text { font-size: 13.5px; color: var(--ink-soft); margin: 0 0 10px; line-height: 1.6; }
 .person .meta { font-size: 12.5px; color: var(--ink-faint); line-height: 1.6; margin: 0; }
+.person .motto {
+  margin: 12px 0 0; padding-top: 10px; border-top: 1px dashed var(--line);
+  font-size: 13px; line-height: 1.6; color: var(--green-700); font-style: italic;
+}
+.person .motto::before { content: "“"; color: var(--gold); font-weight: 700; margin-right: 2px; }
+.person .motto::after { content: "”"; color: var(--gold); font-weight: 700; margin-left: 2px; }
 
 /* ---------- PI ---------- */
 .pi-grid { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 44px; align-items: start; }

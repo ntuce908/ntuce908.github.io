@@ -14,7 +14,7 @@ const UI = {
     pubs_count: n => `共 ${n} 篇`,
     members_title: '研究成員',
     group_staff: '研究人員', group_student: '在學學生', group_alumni: '畢業校友',
-    hometown: '家鄉', education: '學歷',
+    hometown: '家鄉', education: '學歷', interests: '興趣',
     pi_title: '主持人', pi_about: '簡介', pi_interests: '研究興趣', pi_courses: '教授課程',
     contact: '聯絡我們', links: '相關連結', address: '地址', email: '電子郵件', phone: '電話', office: '研究室',
     empty: '目前沒有資料。',
@@ -33,7 +33,7 @@ const UI = {
     pubs_count: n => `${n} article${n === 1 ? '' : 's'}`,
     members_title: 'Lab Members',
     group_staff: 'Research Fellow', group_student: 'Students', group_alumni: 'Alumni',
-    hometown: 'Hometown', education: 'Education',
+    hometown: 'Hometown', education: 'Education', interests: 'Interests',
     pi_title: 'Principal Investigator', pi_about: 'About', pi_interests: 'Research Interests', pi_courses: 'Teaching Courses',
     contact: 'Contact', links: 'Links', address: 'Address', email: 'Email', phone: 'Phone', office: 'Office',
     empty: 'Nothing here yet.',
@@ -113,8 +113,13 @@ async function load(name) {
   if (name === 'news') return list.slice().sort((a, b) => String(b.date).localeCompare(String(a.date)));
   if (name === 'members') {
     const order = { staff: 0, student: 1, alumni: 2 };
+    // 在學：博士生在前，同學位依入學年由早到晚；其餘依畢業年由近到遠
+    const phd = p => /ph\.?\s*d/i.test(p.role_en || '') ? 0 : 1;
     return list.slice().sort((a, b) =>
-      (order[a.group] ?? 9) - (order[b.group] ?? 9) || (b.grad_year || 0) - (a.grad_year || 0));
+      (order[a.group] ?? 9) - (order[b.group] ?? 9) ||
+      (a.group === 'student'
+        ? phd(a) - phd(b) || (a.entry_year || 9999) - (b.entry_year || 9999)
+        : (b.grad_year || 0) - (a.grad_year || 0)));
   }
   return list;
 }
@@ -414,6 +419,15 @@ function personHTML(p) {
     ? `<img class="avatar" src="${esc(p.photo)}" alt="${esc(name)}" loading="lazy">`
     : `<div class="avatar placeholder">${esc((name || '?').slice(0, 1))}</div>`;
   const topic = pick(p, 'topic');
+  const edu = pick(p, 'education');
+  const eduList = Array.isArray(edu) && edu.length ? edu : (p.education || []);
+  const home = pick(p, 'hometown');
+  const interests = pick(p, 'interests');
+  const meta = [
+    ...eduList.map(esc),
+    home ? `${esc(t('hometown'))}：${esc(home)}` : '',
+    interests ? `${esc(t('interests'))}：${esc(interests)}` : '',
+  ].filter(Boolean);
   return `<article class="person">
     ${photo}
     <div class="person-body">
@@ -421,10 +435,8 @@ function personHTML(p) {
       <p class="name-en">${esc(sub || '')}</p>
       <span class="role">${esc(pick(p, 'role'))}</span>
       ${topic ? `<p class="topic-text">${esc(topic)}</p>` : ''}
-      <p class="meta">
-        ${(p.education || []).map(e => esc(e)).join('<br>')}
-        ${p.hometown_en ? `<br>${esc(t('hometown'))}：${esc(pick(p, 'hometown'))}` : ''}
-      </p>
+      ${meta.length ? `<p class="meta">${meta.join('<br>')}</p>` : ''}
+      ${p.motto ? `<p class="motto">${esc(p.motto)}</p>` : ''}
     </div>
   </article>`;
 }
