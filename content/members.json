@@ -1,40 +1,6 @@
 {
   "people": [
     {
-      "group": "staff",
-      "name_zh": "陳柏林",
-      "name_en": "Bo-Lin Chen",
-      "role_en": "Research Associate",
-      "role_zh": "研究人員",
-      "topic_en": "Vegetation Management of Floodplain and Eco-dredge Assessment of River and Wetlands",
-      "topic_zh": "",
-      "education": [
-        "M.S., Bioenvironmental Systems Engineering, National Taiwan University, 2013"
-      ],
-      "hometown_en": "Taipei, Taiwan",
-      "hometown_zh": "臺北",
-      "grad_year": 2013,
-      "photo": "assets/img/people/bo-lin-chen.jpg",
-      "email": ""
-    },
-    {
-      "group": "staff",
-      "name_zh": "林淑幸",
-      "name_en": "Shu-Hsing Lin",
-      "role_en": "Administrative Assistant",
-      "role_zh": "行政助理",
-      "topic_en": "Financial and Budget Management",
-      "topic_zh": "",
-      "education": [
-        "National Pingtung University of Science and Technology, 1990"
-      ],
-      "hometown_en": "Taipei, Taiwan",
-      "hometown_zh": "臺北",
-      "grad_year": 1990,
-      "photo": "assets/img/people/shu-hsing-lin.jpg",
-      "email": ""
-    },
-    {
       "group": "alumni",
       "name_zh": "徐偉銓",
       "name_en": "Wei-Chuan Hsu",
